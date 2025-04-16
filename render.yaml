@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: qzfi
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+    healthCheckPath: /api/categories
+    disk:
+      name: qzfi-data
+      mountPath: /data
+      sizeGB: 1
