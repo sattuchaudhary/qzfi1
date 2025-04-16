@@ -180,7 +180,7 @@ export default function TestPage() {
             ) : (
               /* Test Complete Screen */
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="bg-gradient-to-r from-primary/90 to-primary p-8 text-white text-center">
+                <div className="bg-gradient-to-r from-primary to-blue-600 p-8 text-white text-center">
                   <div className="flex justify-center mb-4">
                     <div className="bg-white/20 p-4 rounded-full">
                       <Trophy className="h-12 w-12" />

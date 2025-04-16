@@ -56,6 +56,6 @@
   }
   
   .btn-secondary-gradient {
-    @apply bg-gradient-to-r from-purple-600/90 to-purple-500 hover:opacity-90 text-white;
+    @apply bg-gradient-to-r from-green-600/90 to-green-500 hover:opacity-90 text-white;
   }
 }

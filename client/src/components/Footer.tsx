@@ -34,10 +34,10 @@ export default function Footer() {
             {/* Brand Column */}
             <div className="md:col-span-1">
               <div className="flex items-center mb-4">
-                <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center text-white mr-2">
+                <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-primary to-blue-600 flex items-center justify-center text-white mr-2">
                   <LightbulbIcon className="h-6 w-6" />
                 </div>
-                <span className="text-xl font-heading font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/80">QZFI</span>
+                <span className="text-xl font-heading font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-blue-600">QZFI</span>
               </div>
               <p className="text-neutral-600 mb-6">
                 The leading platform for interactive quizzes and educational content.

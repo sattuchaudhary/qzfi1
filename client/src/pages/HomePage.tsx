@@ -26,7 +26,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="md:w-2/3">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
-              Test Your Knowledge with <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-purple-200">QZFI</span>
+              Test Your Knowledge with <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-200">QZFI</span>
             </h1>
             <p className="text-lg text-white/90 mb-8">
               Explore diverse quiz categories, challenge yourself, and track your progress. Start your learning journey today!

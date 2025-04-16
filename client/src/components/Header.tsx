@@ -15,10 +15,10 @@ export default function Header() {
           {/* Logo */}
           <h1 className="text-2xl font-heading font-bold">
             <Link href="/" className="flex items-center">
-              <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center text-white mr-2 shadow-md">
+              <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-primary to-blue-600 flex items-center justify-center text-white mr-2 shadow-md">
                 <LightbulbIcon className="h-6 w-6" />
               </div>
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/80">QZFI</span>
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-blue-600">QZFI</span>
             </Link>
           </h1>
 
