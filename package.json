@@ -95,8 +95,7 @@
     "drizzle-kit": "^0.30.4",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14",
-    "typescript": "5.6.3",
-    
+    "typescript": "5.6.3"
   },
   "optionalDependencies": {
     "bufferutil": "^4.0.8"
