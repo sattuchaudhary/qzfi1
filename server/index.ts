@@ -63,7 +63,7 @@ app.use((req, res, next) => {
   server.listen({
     port,
     host: "0.0.0.0",
-    reusePort: true,
+    // reusePort option may not work on Windows, so we're removing it
   }, () => {
     log(`serving on port ${port}`);
   });
