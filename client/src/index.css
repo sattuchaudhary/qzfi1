@@ -16,7 +16,7 @@
 /* Custom components */
 @layer components {
   .hero-gradient {
-    @apply bg-gradient-to-r from-primary/90 to-primary;
+    @apply bg-gradient-to-r from-primary to-blue-600;
   }
   
   .card-hover {
@@ -28,7 +28,7 @@
   }
   
   .badge-gradient {
-    @apply bg-gradient-to-r from-primary/80 to-primary text-white font-medium;
+    @apply bg-gradient-to-r from-primary to-blue-600 text-white font-medium;
   }
   
   .quiz-option {
@@ -52,7 +52,7 @@
   }
   
   .btn-primary-gradient {
-    @apply bg-gradient-to-r from-primary/90 to-primary hover:opacity-90 text-white;
+    @apply bg-gradient-to-r from-primary to-blue-600 hover:opacity-90 text-white;
   }
   
   .btn-secondary-gradient {

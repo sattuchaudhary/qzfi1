@@ -21,7 +21,7 @@ export default function CategoryCard({ category, testCount, icon: Icon }: Catego
       onMouseLeave={() => setIsHovered(false)}
     >
       {/* Decorative top border with gradient */}
-      <div className="h-2 bg-gradient-to-r from-primary/80 to-primary"></div>
+      <div className="h-2 bg-gradient-to-r from-primary to-blue-600"></div>
       
       <div className="p-8">
         <div className="flex items-start mb-6">
